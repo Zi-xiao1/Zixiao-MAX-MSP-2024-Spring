@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 838.0, 100.0, 640.0, 480.0 ],
+		"rect" : [ 34.0, 100.0, 1444.0, 798.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-32",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 259.0, 1073.0, 150.0, 47.0 ],
+					"text" : "Use it to select Bangui from another file, at the end of the 08 document "
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-21",
@@ -61,7 +73,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 190.0, 1359.0, 363.0, 79.0 ],
-					"presentation_linecount" : 5,
 					"text" : "A patcher contained in a bpatcher will automatically update if a new version of the original is saved. You can choose a new patcher file for a box by using the bpatcher Inspector. Select a bpatcher and click on the Inspector icon in the patcher window toolbar to show the Inspector."
 				}
 
@@ -165,7 +176,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 190.0, 1261.0, 357.0, 94.0 ],
-					"presentation_linecount" : 6,
 					"text" : "The patcher file shown in the bpatcher window needs to be in your search path to be displayed. As an alternative, you can embed a subpatcher using the bpatcher Inspector. Select a bpatcher and click on the Inspector icon in the patcher window toolbar to show the Inspector, and check \"Embed Patcher with Parent.\""
 				}
 
@@ -202,7 +212,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 29.0, 911.0, 150.0, 55.0 ],
-					"presentation_linecount" : 2,
 					"text" : "double-click on patcher to show contents"
 				}
 
@@ -219,7 +228,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 150.0, 1001.0, 270.0, 40.0 ],
-					"presentation_linecount" : 2,
 					"text" : "the two outlet objects in the embedded Patcher appear here as functional outlets"
 				}
 
@@ -411,7 +419,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 171.0, 670.0, 165.0, 40.0 ],
-					"presentation_linecount" : 2,
 					"text" : "double-click on patcher to show contents"
 				}
 
@@ -429,7 +436,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 159.0, 587.0, 277.0, 55.0 ],
-					"presentation_linecount" : 2,
 					"text" : "the two inlet objects in the embedded Patcher appear here as functional inlets"
 				}
 

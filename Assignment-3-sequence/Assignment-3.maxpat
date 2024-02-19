@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 271.0, 156.0, 946.0, 695.0 ],
+		"rect" : [ 102.0, 143.0, 946.0, 695.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,17 +40,16 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-153",
-					"linecount" : 19,
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"autofit" : 1,
+					"forceaspect" : 1,
+					"id" : "obj-11",
+					"jspainterfile" : "Macintosh HD:/Users/calebwang/Documents/MAX-MSP2024_Spring/Zixiao-MAX-MSP-2024-Spring/Assignment-3-sequence/media/piano.webp",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 751.0, 316.0, 50.0, 263.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 19,
-					"presentation_rect" : [ 302.166677236557007, 501.0, 50.0, 263.0 ],
-					"text" : "read /Users/calebwang/Documents/MAX-MSP2024_Spring/Zixiao-MAX-MSP-2024-Spring/Assignment-3-sequence/media/piano.webp"
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 747.0, 121.0, 405.0, 342.0 ],
+					"pic" : "banana.png"
 				}
 
 			}
@@ -68,7 +67,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 412.0, 283.0, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 3
+					"value" : 0
 				}
 
 			}
@@ -251,7 +250,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 480.0, 33.0, 231.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "52       55     57   60      59       55     57 \nE         G      A - ^C        B        G       A\nAin't    no sunshine        when she's gone"
 				}
 
@@ -264,7 +262,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 502.0, 275.0, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "change order of list from multislider"
 				}
 
@@ -288,7 +285,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 516.0, 100.0, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "preset \nshift click to set"
 				}
 
@@ -336,7 +332,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 217.0, 468.0, 171.0, 22.0 ],
-					"presentation_linecount" : 4,
 					"text" : "71 73 74 74 76 73 71 69"
 				}
 
@@ -373,7 +368,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 502.0, 359.0, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "multislider\nset up in info"
 				}
 
@@ -1667,8 +1661,22 @@
 					"patching_rect" : [ 1027.0, 160.0, 150.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 288.0, 262.0, 150.0, 87.0 ],
+					"presentation_rect" : [ 248.0, 164.5, 150.0, 87.0 ],
 					"text" : "Chord\n\n- Major - 4 & 7\n- Minor - 3 & 7\n- Augmented - 4 & 8\n- Diminished - 3 & 6"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-55",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 835.0, 226.0, 878.0, 383.0 ],
+					"pic" : "Macintosh HD:/Users/calebwang/Documents/MAX-MSP2024_Spring/Zixiao-MAX-MSP-2024-Spring/Assignment-3-sequence/media/piano.jpg",
+					"presentation" : 1,
+					"presentation_rect" : [ -8.0, 143.0, 878.0, 383.0 ]
 				}
 
 			}
@@ -2516,6 +2524,13 @@
 				"name" : "helpdetails.js",
 				"bootpath" : "C74:/help/resources",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "piano.jpg",
+				"bootpath" : "~/Documents/MAX-MSP2024_Spring/Zixiao-MAX-MSP-2024-Spring/Assignment-3-sequence/media",
+				"patcherrelativepath" : "./media",
+				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{

@@ -40,13 +40,26 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-95",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 324.0, 374.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 324.0, 374.0, 150.0, 20.0 ],
+					"text" : "Scope"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-88",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 633.0, 555.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 676.0, 271.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 683.0, 374.0, 150.0, 20.0 ],
 					"text" : "ADSR"
 				}
 
@@ -59,7 +72,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 428.0, 610.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 501.0, 258.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 497.0, 374.0, 150.0, 20.0 ],
 					"text" : "Spectrum"
 				}
 
@@ -107,7 +120,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 427.0, 712.0, 392.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 469.0, 312.0, 392.0, 60.0 ]
+					"presentation_rect" : [ 244.0, 182.0, 392.0, 60.0 ]
 				}
 
 			}
@@ -123,7 +136,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 777.0, 820.0, 200.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 657.0, 166.0, 200.0, 100.0 ]
+					"presentation_rect" : [ 663.0, 257.0, 200.0, 100.0 ]
 				}
 
 			}
@@ -136,7 +149,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 566.0, 1023.0, 130.0, 130.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 349.0, 161.0, 130.0, 130.0 ]
+					"presentation_rect" : [ 308.0, 259.5, 159.0, 97.5 ]
 				}
 
 			}
@@ -178,7 +191,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 117.0, 913.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 349.0, 133.0, 100.0, 22.0 ]
+					"presentation_rect" : [ 127.0, 54.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -224,11 +237,11 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 203.0, 316.0, 273.0, 134.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.0, 238.0, 273.0, 134.0 ],
+					"presentation_rect" : [ 14.0, 260.25, 282.0, 97.0 ],
 					"setminmax" : [ 50.0, 90.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
-					"size" : 9
+					"size" : 8
 				}
 
 			}
@@ -358,7 +371,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 217.0, 468.0, 171.0, 22.0 ],
-					"text" : "67 69 70 71 71 70 69 69 70"
+					"text" : "71 73 74 74 76 73 71 69"
 				}
 
 			}
@@ -1338,9 +1351,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 22.0, 468.0, 150.0, 47.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 112.0, 20.0, 150.0, 47.0 ],
 					"text" : "preset\nshift click to save preset slot"
 				}
 
@@ -1390,7 +1400,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 457.0, 962.0, 50.0, 35.0 ],
-					"text" : "0.480198"
+					"text" : "0.496287"
 				}
 
 			}
@@ -1532,7 +1542,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 368.0, 801.0, 50.0, 22.0 ],
-					"text" : "74"
+					"text" : "73"
 				}
 
 			}
@@ -1575,7 +1585,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 714.0, 1118.0, 120.0, 80.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 501.0, 176.0, 120.0, 80.0 ],
+					"presentation_rect" : [ 483.0, 257.0, 169.0, 100.0 ],
 					"sonohicolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"sonolocolor" : [ 0.094118, 0.113725, 0.137255, 1.0 ],
 					"sonomedcolor" : [ 0.301961, 0.337255, 0.403922, 1.0 ],
@@ -1707,7 +1717,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 54.0, 199.0, 77.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 4.0, 594.0, 91.0 ],
+					"presentation_rect" : [ 1.0, 4.0, 586.0, 91.0 ],
 					"proportion" : 0.5,
 					"rounded" : 47
 				}
@@ -1723,7 +1733,7 @@
 					"patching_rect" : [ 1004.0, 989.0, 878.0, 383.0 ],
 					"pic" : "Macintosh HD:/Users/calebwang/Documents/MAX-MSP2024_Spring/Zixiao-MAX-MSP-2024-Spring/Assignment-3-sequence/media/piano.jpg",
 					"presentation" : 1,
-					"presentation_rect" : [ -4.0, 4.0, 878.0, 383.0 ]
+					"presentation_rect" : [ -3.0, 0.0, 878.0, 394.0 ]
 				}
 
 			}

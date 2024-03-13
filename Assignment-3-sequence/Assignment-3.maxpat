@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 239.0, 218.0, 882.0, 395.0 ],
+		"rect" : [ 239.0, 100.0, 839.0, 796.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -106,7 +106,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 542.0, 16.5, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 0
+					"value" : 3
 				}
 
 			}
@@ -114,6 +114,7 @@
 				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "kslider",
+					"mode" : 1,
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
@@ -371,7 +372,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 217.0, 468.0, 171.0, 22.0 ],
-					"text" : "71 73 74 74 76 73 71 69"
+					"text" : "74 72 74 74 76 74 72 69"
 				}
 
 			}
@@ -1400,7 +1401,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 457.0, 962.0, 50.0, 35.0 ],
-					"text" : "0.496287"
+					"text" : "0.480198"
 				}
 
 			}
@@ -1542,7 +1543,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 368.0, 801.0, 50.0, 22.0 ],
-					"text" : "73"
+					"text" : "72"
 				}
 
 			}

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 150.0, 62.0, 950.0, 588.0 ],
+		"rect" : [ 34.0, 100.0, 1444.0, 797.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,230 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"hidden" : 1,
+					"id" : "obj-88",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1718.0, 40.0, 48.0, 23.0 ],
+					"text" : "set $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"hidden" : 1,
+					"id" : "obj-90",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1638.0, 40.0, 48.0, 23.0 ],
+					"text" : "set $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"hidden" : 1,
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1543.0, 40.0, 48.0, 23.0 ],
+					"text" : "set $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-91",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1404.0, 285.0, 360.0, 23.0 ],
+					"text" : "0.000047 0.000093 0.000047 -1.994357 0.994544"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-92",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1705.0, 25.0, 73.0, 40.0 ],
+					"text" : "set Q or S"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"format" : 6,
+					"id" : "obj-93",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1718.0, 75.0, 55.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"format" : 6,
+					"id" : "obj-74",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1638.0, 75.0, 55.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"format" : 6,
+					"id" : "obj-94",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1548.0, 75.0, 57.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"id" : "obj-95",
+					"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
+					"logmarkers" : [ 0.0, 100.0, 1000.0, 10000.0 ],
+					"maxclass" : "filtergraph~",
+					"nfilters" : 1,
+					"numinlets" : 8,
+					"numoutlets" : 7,
+					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1404.0, 113.0, 360.0, 155.0 ],
+					"setfilter" : [ 0, 1, 1, 0, 0, 96.0, 1.0, 2.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"varname" : "filtergraph~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-96",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1532.0, 10.0, 88.25, 55.0 ],
+					"text" : "set cutoff or center freq"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-97",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1632.0, 25.0, 59.0, 40.0 ],
+					"text" : "set gain"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-98",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1386.0, 10.0, 118.0, 40.0 ],
+					"text" : "set filter response"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "edit_mode",
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-99",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"orientation" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1404.0, 62.0, 83.0, 46.0 ],
+					"text_width" : 83.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-73",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1078.0, 91.0, 150.0, 20.0 ],
+					"text" : "pitch"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 920.0, 31.0, 150.0, 20.0 ],
+					"text" : "speed"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 0,
@@ -412,7 +636,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2011.0, 68.0, 216.0, 22.0 ],
+					"patching_rect" : [ 2005.0, -46.0, 216.0, 22.0 ],
 					"text" : "read ../media/adele-rolling-vid-edit.mov"
 				}
 
@@ -927,7 +1151,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1860.0, 764.0, 168.0, 108.0 ],
+					"patching_rect" : [ 1854.0, 650.0, 168.0, 108.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 740.0, 425.0, 168.0, 108.0 ],
 					"prototypename" : "pixl",
@@ -953,7 +1177,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1056.0, 708.0, 188.0, 130.0 ],
+					"patching_rect" : [ 1312.0, 697.0, 188.0, 130.0 ],
 					"prototypename" : "pixl",
 					"varname" : "smoothr[2]",
 					"viewvisibility" : 1
@@ -977,7 +1201,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1048.0, 864.0, 84.0, 196.0 ],
+					"patching_rect" : [ 1283.0, 883.0, 84.0, 196.0 ],
 					"varname" : "fadr[3]",
 					"viewvisibility" : 1
 				}
@@ -1039,7 +1263,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 848.0, 772.0, 173.0, 22.0 ],
+					"patching_rect" : [ 1104.0, 761.0, 173.0, 22.0 ],
 					"text" : "pattrforward bp.Flanger:Center"
 				}
 
@@ -1074,7 +1298,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 868.0, 860.0, 172.0, 22.0 ],
+					"patching_rect" : [ 1124.0, 849.0, 172.0, 22.0 ],
 					"text" : "pattrforward bp.Flanger:Regen"
 				}
 
@@ -1096,7 +1320,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1260.0, 916.0, 208.0, 113.0 ],
+					"patching_rect" : [ 1359.0, 1182.0, 208.0, 113.0 ],
 					"prototypename" : "pixl",
 					"varname" : "analyzr",
 					"viewvisibility" : 1
@@ -1120,7 +1344,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 1268.0, 720.0, 208.0, 130.0 ],
+					"patching_rect" : [ 1427.0, 1027.0, 208.0, 130.0 ],
 					"prototypename" : "pixl",
 					"varname" : "brcosr",
 					"viewvisibility" : 1
@@ -1144,7 +1368,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1628.0, 736.0, 108.0, 78.0 ],
+					"patching_rect" : [ 1787.0, 1043.0, 108.0, 78.0 ],
 					"prototypename" : "pixl",
 					"varname" : "beapconvertr",
 					"viewvisibility" : 1
@@ -1168,7 +1392,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 1480.0, 552.0, 214.0, 116.0 ],
+					"patching_rect" : [ 1639.0, 859.0, 214.0, 116.0 ],
 					"varname" : "bp.CV LFO",
 					"viewvisibility" : 1
 				}
@@ -1191,7 +1415,7 @@
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "", "", "", "" ],
-					"patching_rect" : [ 1268.0, 408.0, 206.0, 186.0 ],
+					"patching_rect" : [ 1427.0, 715.0, 206.0, 186.0 ],
 					"prototypename" : "pixl",
 					"varname" : "attractr",
 					"viewvisibility" : 1
@@ -1215,7 +1439,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1576.0, 36.0, 188.0, 130.0 ],
+					"patching_rect" : [ 1479.0, 354.0, 188.0, 130.0 ],
 					"prototypename" : "pixl",
 					"varname" : "smoothr",
 					"viewvisibility" : 1
@@ -1239,7 +1463,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1576.0, 172.0, 84.0, 196.0 ],
+					"patching_rect" : [ 1479.0, 490.0, 84.0, 196.0 ],
 					"varname" : "fadr[2]",
 					"viewvisibility" : 1
 				}
@@ -1354,7 +1578,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 996.0, 76.0, 73.0, 22.0 ],
-					"text" : "random 100"
+					"text" : "random 200"
 				}
 
 			}
@@ -1392,7 +1616,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 872.0, 76.0, 73.0, 22.0 ],
-					"text" : "random 100"
+					"text" : "random 200"
 				}
 
 			}
@@ -1543,7 +1767,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 2064.0, 664.0, 240.0, 208.0 ],
+					"patching_rect" : [ 2058.0, 550.0, 240.0, 208.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 456.0, 32.0, 452.0, 391.0 ],
 					"prototypename" : "pixl",
@@ -1569,7 +1793,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 2272.0, 256.0, 348.0, 160.0 ],
+					"patching_rect" : [ 2266.0, 142.0, 348.0, 160.0 ],
 					"prototypename" : "pixl",
 					"varname" : "reflectr",
 					"viewvisibility" : 1
@@ -1593,7 +1817,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 2072.0, 488.0, 178.0, 130.0 ],
+					"patching_rect" : [ 2066.0, 374.0, 178.0, 130.0 ],
 					"varname" : "mixfadr",
 					"viewvisibility" : 1
 				}
@@ -1616,7 +1840,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 1868.0, 180.0, 358.0, 158.0 ],
+					"patching_rect" : [ 1862.0, 66.0, 358.0, 158.0 ],
 					"prototypename" : "pixl",
 					"varname" : "playr",
 					"viewvisibility" : 1
@@ -1639,7 +1863,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 2316.0, 452.0, 240.0, 208.0 ],
+					"patching_rect" : [ 2310.0, 338.0, 240.0, 208.0 ],
 					"prototypename" : "pixl",
 					"varname" : "viewr[1]",
 					"viewvisibility" : 1
@@ -1674,7 +1898,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1788.0, 472.0, 240.0, 208.0 ],
+					"patching_rect" : [ 1782.0, 358.0, 240.0, 208.0 ],
 					"prototypename" : "pixl",
 					"varname" : "viewr",
 					"viewvisibility" : 1
@@ -2452,6 +2676,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-95", 6 ],
+					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-102", 1 ],
 					"source" : [ "obj-75", 0 ]
 				}
@@ -2461,6 +2692,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-102", 2 ],
 					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-94", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
@@ -2497,6 +2736,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-93", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-88", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-84", 0 ],
 					"source" : [ "obj-89", 0 ]
 				}
@@ -2506,6 +2753,66 @@
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-90", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 7 ],
+					"source" : [ "obj-93", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 5 ],
+					"source" : [ "obj-94", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-95", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-88", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-95", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-90", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-95", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-91", 1 ],
+					"source" : [ "obj-95", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 0 ],
+					"source" : [ "obj-99", 0 ]
 				}
 
 			}
@@ -2907,261 +3214,220 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Rolling.mp3",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/media",
-				"patcherrelativepath" : "../media",
-				"type" : "Mp3",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "bp.CV LFO.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/LFO",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Flanger.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Effects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Stereo.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "brcosa.genjit",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
+				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "data-handler-L.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "data-handler.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "data_smoother.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "exact_menu.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lo_hi_UI_control.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "playr_controls.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "snapshot_UI.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "video-handler.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vizzie-datatexconvert.js",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "C74:/packages/Vizzie/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vizzie-global.js",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "C74:/packages/Vizzie/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vz.analyzr.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vz.attractr.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vz.audio2vizzie.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vz.averagr.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vz.beapconvertr.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vz.brcosr.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vz.fadr.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vz.mixfadr.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vz.playr.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vz.projectr.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vz.reflectr.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vz.viewr.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vzgl-blackframe.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vzgl-context.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vzgl-disable.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vzgl-object.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vzgl-outputdim.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vzgl-pwindow.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vzgl-routegl.maxpat",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "warpedmirror.genjit",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "C74:/packages/Vizzie/patchers/gen",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "windowresize.js",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "C74:/packages/Vizzie/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "xfade.genjit",
-				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP24/david-max-spring-2024/9-arduino-av-loop/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
+				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
 				"type" : "gJIT",
 				"implicit" : 1
 			}

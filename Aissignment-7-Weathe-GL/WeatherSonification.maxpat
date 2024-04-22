@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 656.0, 100.0, 822.0, 799.0 ],
+		"rect" : [ 656.0, 100.0, 822.0, 798.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -108,7 +108,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1020.0, 451.910000000000082, 100.0, 100.0 ]
+					"patching_rect" : [ 1016.0, 436.910000000000082, 100.0, 100.0 ]
 				}
 
 			}
@@ -120,7 +120,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1097.0, 686.0, 113.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "central_impulse -20"
 				}
 
@@ -240,7 +239,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1620.0, 514.910000000000082, 50.0, 22.0 ]
+					"patching_rect" : [ 1613.0, 512.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -424,8 +423,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 966.511593341827393, 373.023242473602295, 216.0, 22.0 ],
-					"text" : "jit.window force @fsaa @ size 600 600"
+					"patching_rect" : [ 966.511593341827393, 373.023242473602295, 222.0, 22.0 ],
+					"text" : "jit.window force @fsaa 1 @size 600 600"
 				}
 
 			}
@@ -448,8 +447,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 966.511593341827393, 199.534876585006714, 69.0, 22.0 ],
-					"text" : "qmetro 200"
+					"patching_rect" : [ 966.511593341827393, 199.534876585006714, 63.0, 22.0 ],
+					"text" : "qmetro 33"
 				}
 
 			}
@@ -483,8 +482,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 966.511593341827393, 295.488362312316895, 598.0, 22.0 ],
-					"text" : "jit.gl.render force @camera 0 0 -5 @erase_color 0. 0. 0. 1. @lighting_enable 1 @lighting_position 0. 0. -1.3 2.1"
+					"patching_rect" : [ 966.511593341827393, 295.488362312316895, 582.0, 22.0 ],
+					"text" : "jit.gl.render force @camera 0 0 -5 @erase_color 0. 0. 0. 1. @lighting_enable 1 @light_position 0. 0. -1.3 2.1"
 				}
 
 			}
@@ -703,7 +702,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 640.0, 659.0, 50.0, 22.0 ],
-					"text" : "3"
+					"text" : "2"
 				}
 
 			}
@@ -913,7 +912,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 517.0, 418.0, 222.0, 22.0 ],
-					"text" : "data::aqi 21"
+					"text" : "data::iaqi::o3::v 7.9"
 				}
 
 			}
@@ -1045,7 +1044,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 128.0, 185.0, 63.0, 49.0 ],
-					"text" : "dictionary u578008858"
+					"text" : "dictionary u068010391"
 				}
 
 			}
@@ -1174,7 +1173,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-64", 1 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -1182,14 +1181,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-68", 1 ],
-					"source" : [ "obj-21", 1 ]
+					"order" : 0,
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -1225,7 +1225,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-68", 2 ],
-					"source" : [ "obj-28", 1 ]
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -1413,6 +1413,13 @@
 					"destination" : [ "obj-43", 0 ],
 					"order" : 0,
 					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-46", 1 ]
 				}
 
 			}
@@ -1711,7 +1718,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "air_parse.js",
-				"bootpath" : "~/Downloads/max-msp-sp24-main 3/13-weatherscape-js",
+				"bootpath" : "~/Documents/MAX-MSP2024_Spring/Zixiao-MAX-MSP-2024-Spring/Aissignment-7-Weathe-GL",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

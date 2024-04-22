@@ -45,8 +45,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1131.0, 565.0, 101.0, 22.0 ],
-					"text" : "scale 0 127 -3. 3."
+					"patching_rect" : [ 1131.0, 565.0, 117.0, 22.0 ],
+					"text" : "scale 0 127 -2.5. 2.5"
 				}
 
 			}
@@ -57,8 +57,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1009.0, 565.0, 101.0, 22.0 ],
-					"text" : "scale 0 127 -3. 3."
+					"patching_rect" : [ 1009.0, 565.0, 114.0, 22.0 ],
+					"text" : "scale 0 127 -2.5 2.5"
 				}
 
 			}
@@ -69,8 +69,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1025.0, 640.0, 110.0, 22.0 ],
-					"text" : "pak postion 0. 0. 0."
+					"patching_rect" : [ 1025.0, 640.0, 113.0, 22.0 ],
+					"text" : "pak position 0. 0. 0."
 				}
 
 			}
@@ -108,7 +108,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1016.0, 436.910000000000082, 100.0, 100.0 ]
+					"patching_rect" : [ 1016.0, 434.0, 100.0, 100.0 ]
 				}
 
 			}
@@ -156,8 +156,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 958.0, 780.0, 274.0, 22.0 ],
-					"text" : "jit.phys.ghost @central_force -5 @position 0. 0. 0."
+					"patching_rect" : [ 910.0, 813.0, 466.0, 22.0 ],
+					"text" : "jit.phys.ghost @central_force -5 @position 0. 0. 0. @scale 5.5 4.2 0.2 @shape sphere"
 				}
 
 			}
@@ -702,7 +702,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 640.0, 659.0, 50.0, 22.0 ],
-					"text" : "2"
+					"text" : "3"
 				}
 
 			}
@@ -1044,7 +1044,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 128.0, 185.0, 63.0, 49.0 ],
-					"text" : "dictionary u068010391"
+					"text" : "dictionary u373006030"
 				}
 
 			}
